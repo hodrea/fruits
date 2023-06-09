@@ -1,0 +1,82 @@
+.maingallerydiv::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+
+.img_container{
+	float: right;
+	width: 33%;
+	margin:1px;
+	height:400px;
+	overflow:scroll;
+	border:1px solid hsl(17,100%,50%);
+	background-color:white;
+	color:hsl(0,100%,21%);
+}
+
+*{
+	font-size:20px;
+	text-align:center;
+	font-family: 'Hind Madurai', sans-serif;
+}
+
+body{
+	background-color:hsl(100,100%,50%);
+}
+
+a{
+	text-decoration: none;
+	color:hsl(0,100%,21%);
+}
+
+a:hover{
+	color:hotpink;
+}
+
+h1{
+	font-size: 50px;
+	font-family: 'Rubik Puddles', cursive;
+	color:white;
+}
+
+h2{
+	font-size: 45px;
+	color:white;
+}
+
+ul{
+	list-style-type:none;
+}
+
+span{
+	font-family: 'Bungee Spice', cursive;
+}
+
+pre{
+	text-align: right;
+}
+
+table{
+	border: 3px solid rgb(202, 143, 66);
+	background-color: white;
+	padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.data:hover{
+	background-color: hsl(100,100%,50%);
+}
+
+th{
+	background-color: rgba(100, 100, 50, 1.0);
+	color: white;
+}
+
+.blogdiv{
+	background-color: rgb(202, 143, 66);
+	border: 3px solid white;
+}
